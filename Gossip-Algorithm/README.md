@@ -1,7 +1,7 @@
 # Gossip-Algorithm
 
 The goal of this project is to determinethe convergence of such algorithms through a simulator based on actors writtenin F#.  
-Since actors in F# are fully asynchronous, the particular type of Gossipimplemented is the so calledAsynchronous Gossip.
+Since actors in F# are fully asynchronous, the particular type of Gossipimplemented is the so called Asynchronous Gossip.
 
 Gossip  Algorithm  for  information  propagationThe  Gossip  algorithminvolves the following:•Starting:A participant(actor) it told/sent a roumor(fact) by the mainprocess
 •Step:Each actor selects a randomneighborand tells it the rumor
