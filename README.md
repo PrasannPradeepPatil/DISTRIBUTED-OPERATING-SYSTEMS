@@ -13,3 +13,10 @@ In this project, we will be simulating chord protocol using FSharp Akka.net fram
 
 
 ## Twitter clone
+Implement a Twitter-like engine with following funtionalities
+- Register account
+- Send tweet. Tweets can have hashtags (e.g. #COP5615isgreat) and mentions (@bestuser)
+- Subscribe to user's tweets
+- Re-tweets (so that your subscribers get an interesting tweet you got by other means)
+- Allow querying tweets subscribed to, tweets with specific hashtags, tweets in which the user is mentioned (my mentions)
+- If the user is connected, deliver the above types of tweets live (without querying)
