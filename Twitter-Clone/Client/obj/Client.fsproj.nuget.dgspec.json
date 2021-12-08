@@ -1,0 +1,117 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\aadit\\OneDrive\\Desktop\\DOS\\Project4.1_Final\\Client\\Client.fsproj": {}
+  },
+  "projects": {
+    "C:\\Users\\aadit\\OneDrive\\Desktop\\DOS\\Project4.1_Final\\Client\\Client.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\aadit\\OneDrive\\Desktop\\DOS\\Project4.1_Final\\Client\\Client.fsproj",
+        "projectName": "Client",
+        "projectPath": "C:\\Users\\aadit\\OneDrive\\Desktop\\DOS\\Project4.1_Final\\Client\\Client.fsproj",
+        "packagesPath": "C:\\Users\\aadit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aadit\\OneDrive\\Desktop\\DOS\\Project4.1_Final\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aadit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-tools/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Akka.Cluster": {
+              "target": "Package",
+              "version": "[1.4.27, )",
+              "generatePathProperty": true
+            },
+            "Akka.Cluster.Tools": {
+              "target": "Package",
+              "version": "[1.4.27, )",
+              "generatePathProperty": true
+            },
+            "Akka.FSharp": {
+              "target": "Package",
+              "version": "[1.4.27, )",
+              "generatePathProperty": true
+            },
+            "Akka.Remote": {
+              "target": "Package",
+              "version": "[1.4.27, )",
+              "generatePathProperty": true
+            },
+            "Akka.Serialization.Hyperion": {
+              "target": "Package",
+              "version": "[1.4.27, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[6.0.1-beta.*, )",
+              "generatePathProperty": true
+            },
+            "Suave": {
+              "target": "Package",
+              "version": "[2.6.1, )",
+              "generatePathProperty": true
+            },
+            "Suave.Experimental": {
+              "target": "Package",
+              "version": "[2.6.1, )",
+              "generatePathProperty": true
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.115.5, )",
+              "generatePathProperty": true
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[5.0.2, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.11, 5.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

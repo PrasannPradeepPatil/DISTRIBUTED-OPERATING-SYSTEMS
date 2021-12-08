@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\narka\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\narka\\.nuget\\packages"
+    ]
+  }
+}
